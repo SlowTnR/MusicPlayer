@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		4D508F8A253873CB004D9751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508F89253873CB004D9751 /* AppDelegate.swift */; };
 		4D508F8C253873CB004D9751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508F8B253873CB004D9751 /* SceneDelegate.swift */; };
-		4D508F8E253873CB004D9751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508F8D253873CB004D9751 /* ViewController.swift */; };
 		4D508F91253873CB004D9751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D508F8F253873CB004D9751 /* Main.storyboard */; };
 		4D508F93253873CC004D9751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D508F92253873CC004D9751 /* Assets.xcassets */; };
 		4D508F96253873CC004D9751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D508F94253873CC004D9751 /* LaunchScreen.storyboard */; };
 		4D508FA1253873CC004D9751 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508FA0253873CC004D9751 /* MusicPlayerTests.swift */; };
 		4D508FAC253873CD004D9751 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508FAB253873CD004D9751 /* MusicPlayerUITests.swift */; };
+		4D508FC025387530004D9751 /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D508FBF25387530004D9751 /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		4D508F86253873CB004D9751 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D508F89253873CB004D9751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D508F8B253873CB004D9751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D508F8D253873CB004D9751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4D508F90253873CB004D9751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D508F92253873CC004D9751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D508F95253873CC004D9751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		4D508FA7253873CD004D9751 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D508FAB253873CD004D9751 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		4D508FAD253873CD004D9751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D508FBF25387530004D9751 /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +101,11 @@
 			children = (
 				4D508F89253873CB004D9751 /* AppDelegate.swift */,
 				4D508F8B253873CB004D9751 /* SceneDelegate.swift */,
-				4D508F8D253873CB004D9751 /* ViewController.swift */,
 				4D508F8F253873CB004D9751 /* Main.storyboard */,
 				4D508F92253873CC004D9751 /* Assets.xcassets */,
 				4D508F94253873CC004D9751 /* LaunchScreen.storyboard */,
 				4D508F97253873CC004D9751 /* Info.plist */,
+				4D508FBF25387530004D9751 /* GenreButtonScreen.swift */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -258,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D508F8E253873CB004D9751 /* ViewController.swift in Sources */,
 				4D508F8A253873CB004D9751 /* AppDelegate.swift in Sources */,
 				4D508F8C253873CB004D9751 /* SceneDelegate.swift in Sources */,
+				4D508FC025387530004D9751 /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
