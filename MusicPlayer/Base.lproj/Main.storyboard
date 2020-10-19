@@ -25,9 +25,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="5Bb-wa-feF"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Classical">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nIE-Ot-qdm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnG-yq-Rms">
                                         <rect key="frame" x="0.0" y="120" width="260" height="60"/>
@@ -35,9 +38,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="1BV-hl-ptR"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Instrumental">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EaM-g1-aSr"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ffE-zz-tTD">
                                         <rect key="frame" x="0.0" y="240" width="260" height="60"/>
@@ -45,9 +51,12 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="XGW-fe-L0S"/>
                                         </constraints>
-                                        <state key="normal" title="Button">
+                                        <state key="normal" title="Electronic">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="genreButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UTT-UF-aqa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -65,6 +74,9 @@
                                 <state key="normal" title="Stop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="stopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mp8-2V-EbH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDY-OO-T4j">
                                 <rect key="frame" x="217" y="618" width="120" height="60"/>
@@ -76,6 +88,9 @@
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JKC-kY-DtY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
